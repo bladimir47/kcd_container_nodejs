@@ -1,0 +1,27 @@
+{
+  "name": "kcd_container_nodejs",
+  "version": "1.0.0",
+  "description": "Apliacion para el evento KCD GUATEMALA 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bladimir47/kcd_container_nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Bladimir Castellanos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bladimir47/kcd_container_nodejs/issues"
+  },
+  "homepage": "https://github.com/bladimir47/kcd_container_nodejs#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
