@@ -2,5 +2,11 @@
 
 
 exports.getEnviroments = (req, res, next) => {
-    return res.status(200).send({KCD: "GUATEMALA 2025"})
+    
+    try {
+        const data = process.env
+        return res.status(200).send({KCD: data})
+    } catch (error) {
+        return res.status(400).send({KCD: "NOOOOOOOOO"})
+    }
 }
